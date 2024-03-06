@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "Luxynema",
-    "slug": "luxynema_mobile",
+    "slug": "Luxynema",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/app-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
