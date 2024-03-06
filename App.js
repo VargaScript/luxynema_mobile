@@ -1,13 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Webview from "react-native-webview";
+
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Webview source={{ uri: "https://luxynema.businesscodecreators.com/" }} />;
 }
 
 const styles = StyleSheet.create({
